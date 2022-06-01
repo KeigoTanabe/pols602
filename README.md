@@ -1,6 +1,6 @@
 ## Quantitative Political Analysis (POLS 602)
 
-This repository contains sample R codes and materials from recitations I taught for the class. 
+This repository contains sample R codes and materials from recitation sessions.
 
 
 
