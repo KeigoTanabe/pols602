@@ -4,7 +4,7 @@
 # --------------------------------------
 
 # Purpose 
-    # show exp dist under different lambda
+    # show the shape of exponential distribution under different lambda
     # show an example of MLE
 
 
@@ -44,6 +44,7 @@ N <- 10000  # number of observations
 lambda <- 2 #  lambda = 2
 data <- y <- rexp(N, rate = lambda)  # generate data
 c.lambda <- seq(0.1, 5, by = 0.1) # a vector of lambda
+dev.off()
 hist(data, breaks=50,xlab ="",main="",ylim=c(0,2000),xlim=c(0,6))
 
 
@@ -82,26 +83,4 @@ dev.off()
 
 # hence, FOC is that first derivative = 0 and SOC is that second derivative < 0
 
-
-# ------
-# Data 
-# ------
-
-# Sample observations from exp dist
-# Lambda is set to vary between 0 and 5. 
-
-N <- 10000  # number of y 
-list.y <- list() # the place to hold 
-c.lambda <- seq(0.1, 5, by = 0.1) # a vector of lambda
-
-# generate a hypothetical data
-for(i in 1:length(c.lambda)){
-    set.seed(20211001)
-    list.y[[i]] <- y <- rexp(N, rate = c.lambda[i])   
-}
-
-# when lambda = 2
-c.lambda[20] 
-# ten thousand ys are distributed as the histogram below
-hist(list.y[[20]], breaks=20) 
 
