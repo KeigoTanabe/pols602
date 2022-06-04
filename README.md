@@ -1,4 +1,4 @@
-## OLS (Tamu POLS 602)
+## OLS (Tamu. POLS 602)
 
 This repository contains a sample of materials used in recitations sessions.
 
