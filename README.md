@@ -1,5 +1,7 @@
 ## OLS (Tamu. POLS 602)
 
+Instructor: [Casey Crisman-Cox](https://caseycrismancox.com)
+
 This repository contains a sample of materials used in recitations sessions.
 
 ### Online Resources
